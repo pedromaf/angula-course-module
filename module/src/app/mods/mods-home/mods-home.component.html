@@ -1,0 +1,13 @@
+<app-title-divider>
+    Modal Component
+</app-title-divider>
+<button class="ui button" (click)="onButtonClick()">Open Modal</button>
+<app-modal (close)="onButtonClick()"  *ngIf="showModal">
+    <div modalTitle>LMFAO</div>
+    <div modalContent>
+        Content here.
+    </div>
+    <ng-container modalFooter>
+        <button class="ui button" (click)="onButtonClick()">Confirm</button>
+    </ng-container>
+</app-modal>
