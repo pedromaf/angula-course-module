@@ -8,17 +8,21 @@ import { Component } from '@angular/core';
 export class ModsHomeComponent {
   questions: Array<{title: string, content: string}> = [
     {
-      title: "What in the actual fuck is this?",
-      content: "Who fucking knows..."
+      title: "This is the question #1?",
+      content: "This is the content of the answer to question #1."
     },
     {
-      title: "What in the actual fuck is this?",
-      content: "Who fucking knows..."
+      title: "This is the question #2?",
+      content: "This is the content of the answer to question #2."
     },
     {
-      title: "What in the actual fuck is this?",
-      content: "Who fucking knows..."
-    }
+      title: "This is the question #3?",
+      content: "This is the content of the answer to question #3."
+    },
+    {
+      title: "This is the question #4?",
+      content: "This is the content of the answer to question #4."
+    },
   ]
   showModal: boolean = false;
 
