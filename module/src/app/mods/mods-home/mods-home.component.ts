@@ -6,6 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./mods-home.component.css']
 })
 export class ModsHomeComponent {
+  questions: Array<{title: string, content: string}> = [
+    {
+      title: "What in the actual fuck is this?",
+      content: "Who fucking knows..."
+    },
+    {
+      title: "What in the actual fuck is this?",
+      content: "Who fucking knows..."
+    },
+    {
+      title: "What in the actual fuck is this?",
+      content: "Who fucking knows..."
+    }
+  ]
   showModal: boolean = false;
 
   onButtonClick() {
